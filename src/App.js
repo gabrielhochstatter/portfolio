@@ -1,25 +1,50 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Typed from 'typed.js'
+import './App.scss';
 
 class App extends Component {
-  render() {
+  state = {
+    showRest: false
+  }
+
+  componentDidMount () {
+    const headerOptions = {
+      strings: [`<b>GabrielHochstatter^200.</b>FrontEnd^150Developer^100(^100)`],
+      typeSpeed: 30,
+      showCursor: true,
+      // onComplete: this.showRestOfCV
+    }
+    const whatIDoOptions = {
+      strings: [`
+        <b>What do I do?</b> I make web things. ^300 Mostly with React! ⚛️
+        <br>
+        <b>Where am I?</b> London, UK 🇬🇧
+        <br>
+        <br>
+        Here's a bit of what I've done:
+        <br>
+        🤷‍♂️
+      `],
+      typeSpeed: 0,
+      startDelay: 2900,
+      showCursor: false
+    }
+    const typedHeader = new Typed('#typedHeader', headerOptions)
+    const typedwhatIDo = new Typed('#whatIDo', whatIDoOptions)
+  }
+
+  showRestOfCV = () => {
+    this.setState({
+      showRest: true
+    })
+  }
+
+  render () {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <span id='typedHeader' className='typed-header' />
+        <p id='whatIDo' />
+        
       </div>
     );
   }

@@ -1,0 +1,26 @@
+body {
+  background-color: #fdfdfd;
+}
+
+.App {
+  padding: 16px 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  max-width: 880px;
+}
+
+.typed-header {
+  display: inline;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 480px) {
+  .typed-header {
+    font-size: 32px;
+  }
+
+  .App {
+    padding: 20px 30px;
+    font-size: 1.5em;
+  }
+}
