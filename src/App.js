@@ -23,11 +23,15 @@ class App extends Component {
         <br>
         Here's a bit of what I've done:
         <br>
-        💁🏻‍♂️ <small>something will be here eventually</small>
+        💁🏻‍♂️ <small>something will be here eventually
+        <br>
+        <a href='https://github.com/gabrielhochstatter'>In the meantime, check out my GitHub</a>
+        </small>
       `],
       typeSpeed: 0,
       startDelay: 2900,
-      showCursor: false
+      showCursor: false,
+      onComplete: this.showRestOfCV
     }
     const typedHeader = new Typed('#typedHeader', headerOptions)
     const typedwhatIDo = new Typed('#whatIDo', whatIDoOptions)
@@ -44,7 +48,6 @@ class App extends Component {
       <div className="App">
         <span id='typedHeader' className='typed-header' />
         <p id='whatIDo' />
-        
       </div>
     );
   }
