@@ -23,7 +23,7 @@ class App extends Component {
         <br>
         Here's a bit of what I've done:
         <br>
-        💁🏻‍♂️
+        💁🏻‍♂️ <small>something will be here eventually</small>
       `],
       typeSpeed: 0,
       startDelay: 2900,
