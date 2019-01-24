@@ -9,7 +9,7 @@ class App extends Component {
 
   componentDidMount () {
     const headerOptions = {
-      strings: [`<b>GabrielHochstatter^200.</b>FrontEnd^75Developer^100(^100)`],
+      strings: [`<b>GabrielHochstatter^200.</b>frontEnd^75Developer^100(^100)`],
       typeSpeed: 30,
       showCursor: true,
       // onComplete: this.showRestOfCV
@@ -25,7 +25,9 @@ class App extends Component {
         <br>
         💁🏻‍♂️ <small>something will be here eventually
         <br>
-        <a href='https://github.com/gabrielhochstatter'>In the meantime, check out my GitHub</a>
+        In the meantime, check out my 
+        <a href='https://github.com/gabrielhochstatter'>GitHub</a> or 
+        <a href='https://www.linkedin.com/in/gabriel-hochstatter/'>LinkedIn</a>
         </small>
       `],
       typeSpeed: 0,
