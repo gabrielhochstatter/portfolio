@@ -8,7 +8,7 @@ export default class CV extends Component {
     return (
       <Fragment>
         <div>
-          <h2>Experience</h2>
+          <h2>💻 Experience</h2>
           <h3>MMT Digital / Vodafone UK - Front End Developer</h3>
           <h5><em>Sep 2018 - Present</em></h5>
           <p className='cv-text'>
@@ -23,7 +23,7 @@ export default class CV extends Component {
             I also had a hand in making sure releases to production went smoothly by working with the DevOps teams to streamline the CI/CD processes used.
           </p>
           <h3>Maker's Academy - Full Stack Web Development Bootcamp</h3>
-          <p className='cv-text'>3 Month intensive course covering:</p>
+          <p className='cv-text'>3 Month intensive web-development course covering:</p>
           <ul className='cv-text'>
             <li>Javascript + assorted libraries and runtimes (React, Node, Vue.js & more)</li>
             <li>Ruby, Ruby on Rails</li>
@@ -32,7 +32,7 @@ export default class CV extends Component {
           </ul>
         </div>
         <div>
-          <h2>Skills:</h2>
+          <h2>🛠 Skills:</h2>
           <p><strong>Stuff I use every day:</strong></p>
           <p className='cv-text'>
             ES6/7 JavaScript, React, Node, Express, Jest, Enzyme, MobX, HTML, CSS, SASS, CSS Modules, Webpack, Babel, Git
