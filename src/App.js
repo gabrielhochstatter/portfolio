@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Typed from 'typed.js'
+import { Spring } from 'react-spring'
+
+import CV from './components/CV'
+
 import './App.scss';
 
 class App extends Component {
@@ -23,12 +27,6 @@ class App extends Component {
         <br>
         Here's a bit of what I've done:
         <br>
-        💁🏻‍♂️ <small>something will be here eventually
-        <br>
-        In the meantime, check out my 
-        <a href='https://github.com/gabrielhochstatter'>GitHub</a> or 
-        <a href='https://www.linkedin.com/in/gabriel-hochstatter/'>LinkedIn</a>
-        </small>
       `],
       typeSpeed: 0,
       startDelay: 2900,
@@ -50,6 +48,10 @@ class App extends Component {
       <div className="App">
         <span id='typedHeader' className='typed-header' />
         <p id='whatIDo' />
+        
+        {this.state.showRest && <Spring from={{opacity: 0}} to={{opacity: 1}}>
+          {props => <div style={props}><CV /></div>}
+        </Spring>}
       </div>
     );
   }
