@@ -8,6 +8,11 @@ export default class CV extends Component {
     return (
       <Fragment>
         <div>
+          <h2>🚇 tubestat.us</h2>
+          <p className='cv-text'>Just type <code>curl tubestat.us</code> in your terminal and see!</p>
+          <p className='cv-text'>
+            Or alternatively <a href='http://tubestat.us' target='_blank' rel='noopener noreferrer'>visit it from your browser</a> or <a href='https://github.com/gabrielhochstatter/tubestat.us' target='_blank' rel='noopener noreferrer'>check out the code on GitHub!</a>
+          </p>
           <h2>💻 Experience</h2>
           <h3>MMT Digital / Vodafone UK - Front End Developer</h3>
           <h5><em>Sep 2018 - Present</em></h5>
