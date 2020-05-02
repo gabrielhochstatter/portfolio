@@ -25,7 +25,7 @@ class App extends Component {
         <b>Where am I?</b> London, UK 🇬🇧
         <br>
         <br>
-        Here's a bit of what I've done:
+        I've built front-end applications that are used by millions of people every month, here are some of the details:
         <br>
       `],
       typeSpeed: 0,

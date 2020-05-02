@@ -1,5 +1,6 @@
 body {
   background-color: #fdfdfd;
+  letter-spacing: 0.55px;
 }
 
 small {
@@ -20,9 +21,16 @@ h3 {
   font-size: 0.85em;
 }
 
+ul {
+  padding-inline-start: 24px;
+  @media all and (min-width: 768px) {
+    padding-inline-start: 40px;
+  }
+}
+
 .App {
   padding: 16px 16px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 14px;
   max-width: 880px;
 }

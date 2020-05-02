@@ -1,3 +1,17 @@
 .cv-text {
   font-size: 0.75em;
 }
+
+.cv-section {
+  margin-bottom: 24px;
+  
+  @media all and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+}
+
+
+.cv-subheader {
+  margin: 0;
+  opacity: 0.5;
+}
