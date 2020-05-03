@@ -13,10 +13,10 @@ export default class CV extends Component {
             <h3>END. Clothing - Front End Developer</h3>
             <h5 className='cv-subheader'><em>Oct 2019 - present</em></h5>
             <p className='cv-text'>
-              This is my current role, where I am in the process of leading the development on END's new React based checkout - replacing an older Magento implementation. 
+              This is my current role, where I am in the process of leading the development of END's new React based checkout - replacing an older Magento implementation. 
               Throughout this process I have worn many hats, including but not limited to:
             <ul>
-              <li>Writing a significant portion of the code (>80% or so) - all while ensuring performance, maintainablity and test coverage.</li>
+              <li>Writing a significant portion of the code (>80% or so) - all while ensuring performance, maintainability and test coverage.</li>
               <li>Taking into account all the edge cases that rear their heads when building a checkout that needs to work across over 70 different countries.</li>
               <li>Collaborating with the UX/Design team to ensure that their designs were translated to code effectively and working with them to resolve any UX concerns that arose.</li>
               <li>Keeping the CTO and other senior stakeholders updated on the progress of the project and working to quickly resolve any blockers.</li>
@@ -40,7 +40,7 @@ export default class CV extends Component {
             <h5 className='cv-subheader'><em>Sep 2018 - Oct 2019</em></h5>
             <p className='cv-text'>
               Worked on a client-side team based at <strong>Vodafone UK</strong>’s London office. 
-              My team was responsible for the broadband online sales journey, where we inherited underperforming section of the site and turned it around leading to a nearly 70% jump in conversion. 
+              My team was responsible for the broadband online sales journey, where we inherited an underperforming section of the site and turned it around leading to a nearly 70% jump in conversion. 
               We later added new features and became one of the first teams to adopt a cross-disciplinary model with front-end, back-end, design, QA and analytics working on the same team. 
             </p>
             <p className='cv-text'>
